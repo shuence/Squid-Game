@@ -17,12 +17,12 @@ $(document).ready(function () {
     setTimeout(function () {
       alert('Reloading Page');
       location.reload(true);
-    }, 75000);
+    }, 60000);
   });
 
 // Countdown
 
-var timeLeft = 60;
+var timeLeft = 45;
 var elem = document.getElementById('timer_div');
 var timerId = setInterval(countdown, 1000);
 
