@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 // Countdown
 
-var timeLeft = 45;
+var timeLeft = 30;
 var elem = document.getElementById('timer_div');
 var timerId = setInterval(countdown, 1000);
 
